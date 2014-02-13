@@ -1,7 +1,7 @@
 export SHELL = sh
 PACKAGE = wubi
 ICON = data/images/Wubi.ico
-REVISION = $(shell bzr revno)
+REVISION = 999
 VERSION = $(shell head -n 1 debian/changelog | sed -e "s/^$(PACKAGE) (\(.*\)).*/\1/g")
 COPYRIGHTYEAR = 2009
 AUTHOR = Agostino Russo
